@@ -32,11 +32,11 @@ The dataset for this project is already available on Kaggle, and the following c
 11. Sepssis	Target	Positive: if a patient in ICU will develop a sepsis, and Negative: otherwise
 
 ### Phase 3: Data Preparation
-We did some analysis on the dataset, including Exploratory data analysis, Univariate, Bivariate and Multivariate analysis. The notebook for the analysis can be found [here]()
+We did some analysis on the dataset, including Exploratory data analysis, Univariate, Bivariate and Multivariate analysis. The notebook for the analysis can be found [here](https://github.com/WachiraChris/LP-Six/blob/main/src/LP6.ipynb)
 ### Phase 4: Modeling
 Train your machine learning model using the prepared data. Once the model is trained, save it in a format that can be loaded during deployment. Commonly, this is done using joblib or pickle.
 ### Phase 5: Evaluation
-We trained and evaluated 7 models to be able to select the best model, again, the details can be found in this [notebook]().
+We trained and evaluated 7 models to be able to select the best model, again, the details can be found in this [notebook](https://github.com/WachiraChris/LP-Six/blob/main/src/LP6.ipynb).
 ### Phase 6: Deployment
 Now, let's delve into the deployment process using FastAPI:
 
