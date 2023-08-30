@@ -25,10 +25,17 @@ We will be using the [sepsis dataset](https://www.kaggle.com/datasets/chaunguynn
 ### Phase 2: Data Understanding
 
 The dataset includes columns such as:
-- ID: Unique patient ID
-- PRG: Plasma glucose
-- PL: Blood Work Result-1 (mu U/ml)
-- ...
+1. ID: Unique number to represent patient ID
+2. PRG: Plasma glucose
+3. PL: Blood Work Result-1 (mu U/ml)
+4. PR: Blood Pressure (mm Hg)
+5. SK: Blood Work Result-2 (mm)
+6. TS: Blood Work Result-3 (mu U/ml)
+7. M11: Body mass index (weight in kg)/(height in m)^2
+8. BD2: Blood Work Result-4 (mu U/ml)
+9. Age: Patient's age (years)
+10. Insurance: If a patient holds a valid insurance card
+11. Sepssis: Target (Positive: patient in ICU will develop sepsis, Negative: otherwise)
 
 Detailed descriptions of the columns can be found in the [data description](#link-to-your-data-description).
 
