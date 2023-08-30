@@ -15,10 +15,10 @@ CRISP-DM consists of six major phases, providing a structured approach to guide 
 Each phase builds upon the insights gained from the previous ones, fostering a well-organized and iterative workflow. While deploying a machine learning model, we'll integrate these phases into the FastAPI development process.
 
 ### Phase 1: Business Understanding
-we will be using the [sepsis](https://www.kaggle.com/datasets/chaunguynnghunh/sepsis) dataset from kaggle.com and our aim is to develope a machine learning model that will be able to predict with high accuracy if a patient in the ICU will develope sepsis or not and also deploy the model using FastAPI.
+we will be using the [sepsis](https://www.kaggle.com/datasets/chaunguynnghunh/sepsis) dataset from kaggle.com, and our aim is to develop a machine learning model that will be able to predict with high accuracy if a patient in the ICU will develop sepsis or not and also deploy the model using FastAPI.
 
 ### Phase 2: Data Understanding
-The dataset for this project is already available on Kaggle and the following columns and brief descriptions about them are available:
+The dataset for this project is already available on Kaggle, and the following columns and brief descriptions about them are available:
 1. ID	N/A	Unique number to represent patient ID
 2. PRG	Attribute1	Plasma glucose
 3. PL	Attribute 2	Blood Work Result-1 (mu U/ml)
@@ -29,14 +29,14 @@ The dataset for this project is already available on Kaggle and the following co
 8. BD2	Attribute 7	Blood Work Result-4 (mu U/ml)
 9. Age	Attribute 8	patients age (years)
 10. Insurance	N/A	If a patient holds a valid insurance card
-11. Sepssis	Target	Positive: if a patient in ICU will develop a sepsis , and Negative: otherwise
+11. Sepssis	Target	Positive: if a patient in ICU will develop a sepsis, and Negative: otherwise
 
 ### Phase 3: Data Preparation
-We did some analysis on the dataset including Exploratory data analysis, Univariate,Bivariate and Multivariate analysis, the notebook for the analysis can be found [here]()
+We did some analysis on the dataset, including Exploratory data analysis, Univariate, Bivariate and Multivariate analysis. The notebook for the analysis can be found [here]()
 ### Phase 4: Modeling
 Train your machine learning model using the prepared data. Once the model is trained, save it in a format that can be loaded during deployment. Commonly, this is done using joblib or pickle.
 ### Phase 5: Evaluation
-We trained and evaluated 7 models to be able to select the best model, again the details can be found in this [notebook]().
+We trained and evaluated 7 models to be able to select the best model, again, the details can be found in this [notebook]().
 ### Phase 6: Deployment
 Now, let's delve into the deployment process using FastAPI:
 
@@ -68,7 +68,7 @@ Now, let's delve into the deployment process using FastAPI:
 # Import your trained machine learning model here
 # For example: from my_ml_model import MyModel
 Step 5: Define API Endpoints
-Define the endpoints that your app will expose. These endpoints will be used to interact with your machine learning model. For instance:
+Define the endpoints that your app will expose. These endpoints will be used to interact with your machine-learning model. For instance:
 
 ```python
 
